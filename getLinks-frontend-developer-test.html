@@ -10,283 +10,287 @@
       <title>GetLinks Frontend Developer Test</title>
       <style>
       body {
-      	overflow-x: hidden;
+        overflow-x: hidden;
       }
-      	.profile {
-      		height: 180px;
-      	}
-      	.avatar-circle {
-			background-color: #D8D8D8;
-		    width: 72px;
-		    height: 72px;
-		    border-radius: 50%;
-		    margin: 20px auto;
-      	}
-      	.menu-wrapper {
-      		width: 35%;
-      		margin: auto;
-      	}
-      	.menu {
-      		background-color: #D8D8D8;
-		    margin: auto;
-		    height: 20px;
-		    border-radius: 4px;
-		    width: 100%;
-      	}
-      	.content-2 {
-      		height: 230px;
-      		background-color: #DADFE4;
-      		border-top: 4px solid #BABDC1;
-    		border-bottom: 4px solid #BABDC1;
-    		display: flex;
-      	}
-      	.content-2-box {
-      		width: 50%;
-      		margin: auto;
-      	}
-      	.content-2-item {
-      		background-color: #C3C8CD;
-      		border-radius: 4px;
-      	}
-      	.lg-content {
-      		height: 30px;
-		    margin: 20px auto;
-		    width: 50%;
-      	}
-      	.sm-content {
-      		height: 14px;
-		    margin: 10px auto;
-		    width: 70%;
-      	}
-      	.content-3 {
-      		width: 80%;
-      		margin:60px auto;
-      	}
-      	.content-3-box {
-		    display: flex;
-		    width: 66%;
-		    margin: 12px auto;
-      	}
-      	.content-3-item {
-      	}
-      	.card-image {
-			background-color: #C3C8CD;
-			border-radius: 4px;
-			height: 140px;
-      	}
-      	.card-title {
-			background-color: #ACB2B8;
-		    border-radius: 4px;
-		    margin-top: 16px;
-		    height: 16px;
-		    width: 50%;
-      	}
-      	.card-sub-title {
-			background-color: #CFD3D6;
-		    border-radius: 4px;
-		    margin: 8px auto;
-		    height: 10px;
-      	}
-      	.footer {
-      		background-color: #DADFE4;
-      		border-top: 4px solid #BABDC1;
-    		display: flex;
-      	}
-      	.footer-wrapper {
-      		width: 52%;
-    		margin: 30px auto;
-      	}
-      	.site-map {
+        .profile {
+          height: 180px;
+        }
+        .avatar-circle {
+      background-color: #D8D8D8;
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+        margin: 20px auto;
+        }
+        .menu-wrapper {
+          /*width: 35%;
+          margin: auto;*/
+        }
+        .menu {
+          background-color: #D8D8D8;
+        margin: auto;
+        height: 20px;
+        border-radius: 4px;
+        width: 100%;
+        }
+        .content-2 {
+          height: 230px;
+          background-color: #DADFE4;
+          border-top: 4px solid #BABDC1;
+        border-bottom: 4px solid #BABDC1;
+        display: flex;
+        }
+        .content-2-box {
+          /*width: 50%;*/
+          margin: auto;
+        }
+        .content-2-item {
+          background-color: #C3C8CD;
+          border-radius: 4px;
+        }
+        .lg-content {
+          height: 30px;
+        margin: 20px auto;
+        width: 50%;
+        }
+        .sm-content {
+          height: 14px;
+        margin: 10px auto;
+        width: 70%;
+        }
+        .content-3 {
+          /*width: 80%;*/
+          /*margin:10% auto;*/
+              margin-top: 2%;
+    margin-bottom: 2%;
+        }
+        .content-3-box {
+        display: flex;
+        /*width: 66%;*/
+        margin: 12px auto;
+        }
+        .content-3-item {
+        }
+        .card-image {
+      background-color: #C3C8CD;
+      border-radius: 4px;
+      height: 12vh;
+    }
+        .card-title {
+      background-color: #ACB2B8;
+        border-radius: 4px;
+        margin-top: 16px;
+        height: 16px;
+        width: 50%;
+        }
+        .card-sub-title {
+      background-color: #CFD3D6;
+        border-radius: 4px;
+        margin: 8px auto;
+        height: 10px;
+        }
+        .footer {
+          background-color: #DADFE4;
+          border-top: 4px solid #BABDC1;
+        display: flex;
+        }
+        .footer-wrapper {
+          /*width: 52%;*/
+        margin: 30px auto;
+        }
+        .site-map {
 
-      	}
-      	.title {
-			width: 50%;
-			background-color: #ACB2B8;
-			height: 16px;
-			margin-top: 20px;
-			margin-bottom: 20px;
-			border-radius: 2px;
-      	}
-      	.link {
-			background-color: #CFD3D6;
-			height: 10px;
-			margin-bottom: 4px;
-			border-radius: 2px;
-      	}
-      	.link- {
-			width: 95%;
-      	}
-      	.link-- {
-			width: 90%;
-      	}
-      	.contact-us {
+        }
+        .title {
+      width: 50%;
+      background-color: #ACB2B8;
+      height: 16px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 2px;
+        }
+        .link {
+      background-color: #CFD3D6;
+      height: 10px;
+      margin-bottom: 4px;
+      border-radius: 2px;
+        }
+        .link- {
+      width: 95%;
+        }
+        .link-- {
+      width: 90%;
+        }
+        .contact-us {
 
-      	}
-      	.contact-title {
-      		width: 64%;
-      	}
-      	.us {
-      		display: inline-block;
-		    width: 40px;
-		    height: 40px;
-		    background-color: #CFD3D6;
-		    margin-right: 10px;
-      	}
+        }
+        .contact-title {
+          width: 64%;
+        }
+        .us {
+          display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #CFD3D6;
+        margin-right: 5px;
+        }
       </style>
     </head>
-	
+  
     <body>
       <div class="row profile">
-    	<div class="col-xs-12 col-md-12 col-lg-12">
-      		<div class="avatar-circle">
-      			
-      		</div>
-      		<div class="menu-wrapper">
-      			<div class="col-lg-3">
-      				<div class="menu"></div>
-      			</div>
-      			<div class="col-lg-3">
-      				<div class="menu"></div>
-      			</div>
-      			<div class="col-lg-3">
-      				<div class="menu"></div>
-      			</div>
-      			<div class="col-lg-3">
-      				<div class="menu"></div>
-      			</div>
-      		</div>
-      	</div>    	
+      <div class="col-xs-12 col-md-12 col-lg-12">
+          <div class="avatar-circle">
+            
+          </div>
+          <div class="menu-wrapper col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <div class="menu"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <div class="menu"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <div class="menu"></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <div class="menu"></div>
+            </div>
+          </div>
+        </div>      
     </div>
     <div class="row content-2">
-    	<div class="content-2-box">
-    		<div class="lg-content content-2-item">
-    			
-    		</div>
-    		<div class="sm-content content-2-item"></div>
-    		<div class="sm-content content-2-item"></div>
-    	</div>
+      <div class="content-2-box col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+        <div class="lg-content content-2-item">
+          
+        </div>
+        <div class="sm-content content-2-item"></div>
+        <div class="sm-content content-2-item"></div>
+      </div>
     </div>
-    <div class="content-3">
-    	<div class="row content-3-box">
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    	</div>
-    	<div class="row content-3-box">
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    		<div class="col-lg-3">
-    			<div class="content-3-item">
-    				<div class="card-image">
-    					
-    				</div>
-    				<div class="card-title"></div>
-    				<div class="card-sub-title"></div>
-    				<div class="card-sub-title"></div>
-    			</div>
-    		</div>
-    	</div>
+    <div class="row">
+    <div class="content-3 col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+      <div class="row content-3-box">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row content-3-box">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <div class="content-3-item">
+            <div class="card-image">
+              
+            </div>
+            <div class="card-title"></div>
+            <div class="card-sub-title"></div>
+            <div class="card-sub-title"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
     <div class="row footer">
-    <div class="footer-wrapper">
-    	<div class="col-lg-3">
-    		<div class="site-map">
-    			<div class="title"></div>
-    			<div class="link"></div>
-    			<div class="link link--"></div>
-    			<div class="link link-"></div>
-    		</div>
-    	</div>
-    	<div class="col-lg-3">
-    		<div class="site-map">
-    			<div class="title"></div>
-    			<div class="link"></div>
-    			<div class="link link--"></div>
-    			<div class="link link-"></div>
-    		</div>
-    	</div>
-    	<div class="col-lg-3">
-    		<div class="site-map">
-    			<div class="title"></div>
-    			<div class="link"></div>
-    			<div class="link link--"></div>
-    			<div class="link link-"></div>
-    		</div>
-    	</div>
-    	<div class="col-lg-3">
-    		<div class="contact-us">
-    			<div class="title contact-title"></div>
-    			<div class="us"></div>
-    			<div class="us"></div>
-    			<div class="us"></div>
-    		</div>
-    	</div>
-    	</div>
+    <div class="footer-wrapper col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+      <div class="col-lg-3">
+        <div class="site-map">
+          <div class="title"></div>
+          <div class="link"></div>
+          <div class="link link--"></div>
+          <div class="link link-"></div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="site-map">
+          <div class="title"></div>
+          <div class="link"></div>
+          <div class="link link--"></div>
+          <div class="link link-"></div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="site-map">
+          <div class="title"></div>
+          <div class="link"></div>
+          <div class="link link--"></div>
+          <div class="link link-"></div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="contact-us">
+          <div class="title contact-title"></div>
+          <div class="us"></div>
+          <div class="us"></div>
+          <div class="us"></div>
+        </div>
+      </div>
+      </div>
     </div>
 
       <script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
